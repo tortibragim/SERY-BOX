@@ -5,7 +5,6 @@ import { formatPhone } from '@/lib/utils';
 export const metadata = generatePageMetadata({
   title: 'Реквизиты',
   canonicalPath: '/requisites',
-  noIndex: true,
 });
 
 export default function RequisitesPage() {

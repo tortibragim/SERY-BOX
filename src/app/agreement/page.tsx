@@ -4,7 +4,6 @@ import { siteConfig } from '@/lib/config';
 export const metadata = generatePageMetadata({
   title: 'Согласие на обработку персональных данных',
   canonicalPath: '/agreement',
-  noIndex: true,
 });
 
 export default function AgreementPage() {

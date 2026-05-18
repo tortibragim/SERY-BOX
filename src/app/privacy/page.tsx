@@ -4,7 +4,6 @@ import { siteConfig } from '@/lib/config';
 export const metadata = generatePageMetadata({
   title: 'Политика конфиденциальности',
   canonicalPath: '/privacy',
-  noIndex: true,
 });
 
 export default function PrivacyPage() {
