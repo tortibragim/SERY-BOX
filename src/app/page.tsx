@@ -23,7 +23,7 @@ export default function HomePage() {
       {/* Контент */}
       <div className="relative z-10 flex flex-col items-center text-center px-4 py-16 w-full">
         {/* Логотип */}
-        <Logo width={280} height={100} className="text-white" />
+        <Logo width={280} height={100} />
 
         {/* Текст */}
         <h1 className="mt-6 text-2xl sm:text-3xl lg:text-4xl font-light text-white uppercase tracking-widest">

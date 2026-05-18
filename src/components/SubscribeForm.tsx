@@ -74,7 +74,7 @@ export const SubscribeForm: React.FC = () => {
         </button>
       </div>
 
-      <label className="flex items-center gap-3 mt-4 cursor-pointer select-none">
+      <label className="flex items-center gap-3 mt-4 cursor-pointer select-none text-left">
         <span className="relative w-5 h-5 flex-shrink-0">
           <input
             type="checkbox"
@@ -86,7 +86,7 @@ export const SubscribeForm: React.FC = () => {
             disabled={isLoading}
             className="peer absolute inset-0 w-full h-full opacity-0 cursor-pointer"
           />
-          <span className="block w-5 h-5 border border-white/60 rounded-sm peer-checked:border-white peer-checked:bg-transparent transition-colors" />
+          <span className="block w-5 h-5 border border-white/60 peer-checked:border-white peer-checked:bg-transparent transition-colors" />
           <svg
             className="absolute inset-0 w-5 h-5 text-white opacity-0 peer-checked:opacity-100 pointer-events-none p-0.5"
             viewBox="0 0 16 16"

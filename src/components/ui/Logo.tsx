@@ -13,7 +13,7 @@ export default function Logo({ className = '', width = 280, height = 100 }: Logo
       alt="Логотип"
       width={width}
       height={height}
-      className={className}
+      className={`brightness-0 invert ${className}`}
       priority
     />
   );
